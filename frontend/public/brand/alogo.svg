@@ -1,0 +1,105 @@
+<svg width="760" height="260" viewBox="0 0 760 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="accent" x1="270" y1="24" x2="500" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F4C81" />
+      <stop offset="1" stop-color="#00C9A7" />
+    </linearGradient>
+    <linearGradient id="gold" x1="250" y1="18" x2="470" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E5CA74" />
+      <stop offset="0.5" stop-color="#D4AF37" />
+      <stop offset="1" stop-color="#B88D18" />
+    </linearGradient>
+    <filter id="soft" x="0" y="0" width="760" height="260" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="0.7" />
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="260" rx="24" fill="#F8FAFC" />
+
+  <g transform="translate(40,34)">
+    <path
+      d="M20 88C47 15 106 -12 168 14"
+      stroke="url(#gold)"
+      stroke-width="10"
+      stroke-linecap="round"
+    />
+    <path
+      d="M168 88C141 161 82 188 20 162"
+      stroke="url(#gold)"
+      stroke-width="10"
+      stroke-linecap="round"
+    />
+
+    <path
+      d="M116 32c-17-8-40-5-54 7-11 10-15 27-8 41 7 14 24 21 40 25 16 4 33 9 40 24 7 14 2 32-10 44-17 15-45 17-66 6"
+      stroke="#071B2E"
+      stroke-width="14"
+      stroke-linecap="round"
+    />
+
+    <path
+      d="M110 184 150 68c2-6 10-6 12 0l40 116"
+      stroke="url(#accent)"
+      stroke-width="14"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M124 146h64"
+      stroke="url(#accent)"
+      stroke-width="14"
+      stroke-linecap="round"
+    />
+
+    <g filter="url(#soft)">
+      <path
+        d="M121 140c10-9 20-14 30-14 11 0 21 5 31 14"
+        stroke="#071B2E"
+        stroke-opacity="0.12"
+        stroke-width="12"
+        stroke-linecap="round"
+      />
+    </g>
+  </g>
+
+  <g transform="translate(280,70)">
+    <text
+      x="0"
+      y="0"
+      font-family="Sora, Inter, system-ui, -apple-system, Segoe UI"
+      font-size="44"
+      font-weight="700"
+      letter-spacing="0.12em"
+      fill="#071B2E"
+    >
+      SAMARTH
+    </text>
+    <g transform="translate(0,46)">
+      <path d="M0 22h96" stroke="url(#gold)" stroke-width="2" stroke-linecap="round" />
+      <text
+        x="116"
+        y="28"
+        font-family="Sora, Inter, system-ui, -apple-system, Segoe UI"
+        font-size="26"
+        font-weight="600"
+        letter-spacing="0.22em"
+        fill="#D4AF37"
+      >
+        ASSOCIATE
+      </text>
+      <path d="M360 22h96" stroke="url(#gold)" stroke-width="2" stroke-linecap="round" />
+    </g>
+    <text
+      x="0"
+      y="116"
+      font-family="Inter, system-ui, -apple-system, Segoe UI"
+      font-size="13"
+      font-weight="600"
+      letter-spacing="0.24em"
+      fill="#071B2E"
+      opacity="0.76"
+    >
+      MANAGE  |  MAINTAIN  |  EMPOWER
+    </text>
+  </g>
+</svg>

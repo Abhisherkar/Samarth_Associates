@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d8af58"/>
+      <stop offset="100%" stop-color="#a66a08"/>
+    </linearGradient>
+    <style>
+      .blue{fill:#072c73}
+    </style>
+  </defs>
+  <rect width="1024" height="1024" fill="white"/>
+  <path class="blue" d="M640 90c-140 0-230 78-230 180 0 88 70 142 165 190 108 55 170 100 170 198 0 84-62 150-170 150-66 0-122-18-175-52l20 86c49 24 103 36 168 36 183 0 293-106 293-251 0-133-81-203-205-266-93-47-132-77-132-135 0-55 48-98 126-98 63 0 110 18 152 44V108c-48-12-109-18-182-18z"/>
+  <path fill="url(#gold)" d="M512 250L760 860H670L600 690H424L354 860H264L512 250zm0 170l-58 178h116l-58-178z"/>
+</svg>
